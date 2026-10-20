@@ -3,6 +3,6 @@
     "id": "main",
     "nome": "Contenuto",
     "enabled": true,
-    "html": "<p>Alba Maris &egrave; un marchio di cosmetica di lusso: creme, sieri, contorni occhi, detergenti, maschere e oli viso, ispirati al mare e pensati per un rituale quotidiano.</p><h2>Le categorie</h2><ul><li><a href=\"__BASEURL__/negozio/categoria/creme-viso/\">Creme viso</a></li><li><a href=\"__BASEURL__/negozio/categoria/sieri/\">Sieri</a></li><li><a href=\"__BASEURL__/negozio/categoria/contorno-occhi/\">Contorno occhi</a></li><li><a href=\"__BASEURL__/negozio/categoria/detergenti-tonici/\">Detergenti e tonici</a></li><li><a href=\"__BASEURL__/negozio/categoria/maschere-esfolianti/\">Maschere ed esfolianti</a></li><li><a href=\"__BASEURL__/negozio/categoria/oli-viso/\">Oli viso</a></li></ul><p>Scegli dal negozio o scrivici dalla pagina Contatti.</p>"
+    "html": "<p>Alba Maris &egrave; un marchio di cosmetica di lusso: creme viso, contorno occhi, creme mani e corpo, balsami labbra e set regalo, ispirati al mare.</p><h2>Le categorie</h2><ul><li><a href=\"__BASEURL__/negozio/categoria/creme-viso/\">Creme viso</a></li><li><a href=\"__BASEURL__/negozio/categoria/contorno-occhi/\">Contorno occhi</a></li><li><a href=\"__BASEURL__/negozio/categoria/creme-mani/\">Creme mani</a></li><li><a href=\"__BASEURL__/negozio/categoria/creme-corpo/\">Creme corpo</a></li><li><a href=\"__BASEURL__/negozio/categoria/labbra/\">Labbra</a></li><li><a href=\"__BASEURL__/negozio/categoria/set-regalo/\">Set regalo</a></li></ul><p>Scegli dal negozio o scrivici dalla pagina Contatti.</p>"
   }
 ]
