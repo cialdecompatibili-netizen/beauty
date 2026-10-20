@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Contatti"
-seo_title: "Contatti | Pelletteria"
+seo_title: "Contatti | Alba Maris"
 seo_description: "Scrivici cosa ti serve o quale prodotto cerchi: ti rispondiamo entro 24 ore, festivi esclusi."
 permalink: /contatti/
 ---
@@ -17,7 +17,7 @@ permalink: /contatti/
   accetti il dominio di questo sito (campo "sito" = location.hostname).
 {%- endcomment -%}
 
-<p class="cf-intro">Dicci quale prodotto ti serve o cosa cerchi: ti rispondiamo entro 24 ore, festivi esclusi.</p>
+<p class="cf-intro">Dicci quale prodotto ti interessa o che tipo di pelle hai: ti rispondiamo entro 24 ore, festivi esclusi.</p>
 
 <style>
 .cf-wrap,.cf-intro{max-width:520px;margin-left:auto;margin-right:auto}
@@ -50,11 +50,11 @@ permalink: /contatti/
   </div>
   <div class="cf-campo">
     <label for="cf-email">La tua email</label>
-    <input type="email" id="cf-email" name="email" maxlength="150" required autocomplete="email" placeholder="nome@azienda.it">
+    <input type="email" id="cf-email" name="email" maxlength="150" required autocomplete="email" placeholder="nome@email.it">
   </div>
   <div class="cf-campo">
     <label for="cf-msg">Cosa ti serve?</label>
-    <textarea id="cf-msg" name="messaggio" rows="5" maxlength="3000" required placeholder="Esempio: vorrei il template per il sito del mio ristorante."></textarea>
+    <textarea id="cf-msg" name="messaggio" rows="5" maxlength="3000" required placeholder="Esempio: vorrei un consiglio sulla crema più adatta alla mia pelle."></textarea>
   </div>
   <div style="position:absolute;left:-9999px;height:0;overflow:hidden" aria-hidden="true">
     <label for="cf-web">Non compilare</label>

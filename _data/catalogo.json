@@ -1,142 +1,253 @@
 {
-  "_nota": "PELLETTERIA. Reparti Donna e Uomo; le sottocategorie hanno il campo \"genitore\". Prezzi in centesimi. Fonte UNICA di /negozio/ e delle pagine prodotto. L'id \"categoria\" e' riservato.",
+  "_nota": "ALBA MARIS (cosmetica di lusso, DEMO). Catalogo piatto: categorie senza reparti. Prezzi in centesimi. Fonte UNICA di /negozio/ e delle pagine prodotto. L'id \"categoria\" e' riservato. Testi e formule di esempio: da verificare prima della vendita.",
   "categorie": [
     {
-      "id": "donna",
-      "nome": "Donna",
+      "id": "creme-viso",
+      "nome": "Creme viso",
       "icona": ""
     },
     {
-      "id": "donna-borse-mano",
-      "nome": "Borse a mano",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-borse-spalla",
-      "nome": "Borse a spalla",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-tracolle",
-      "nome": "Tracolle e mini bag",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-shopper",
-      "nome": "Shopper e tote",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-pochette",
-      "nome": "Pochette e clutch",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-zaini",
-      "nome": "Zaini",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-portafogli",
-      "nome": "Portafogli e portacarte",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-viaggio",
-      "nome": "Valigeria e viaggio",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-cinture",
-      "nome": "Cinture",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-giacche",
-      "nome": "Giacche e capispalla",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-scarpe",
-      "nome": "Scarpe e stivali",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "donna-accessori",
-      "nome": "Guanti e accessori",
-      "icona": "",
-      "genitore": "donna"
-    },
-    {
-      "id": "uomo",
-      "nome": "Uomo",
+      "id": "sieri",
+      "nome": "Sieri",
       "icona": ""
     },
     {
-      "id": "uomo-24ore",
-      "nome": "Borse 24 ore e porta PC",
-      "icona": "",
-      "genitore": "uomo"
+      "id": "contorno-occhi",
+      "nome": "Contorno occhi",
+      "icona": ""
     },
     {
-      "id": "uomo-messenger",
-      "nome": "Messenger e tracolle",
-      "icona": "",
-      "genitore": "uomo"
+      "id": "detergenti-tonici",
+      "nome": "Detergenti e tonici",
+      "icona": ""
     },
     {
-      "id": "uomo-zaini",
-      "nome": "Zaini",
-      "icona": "",
-      "genitore": "uomo"
+      "id": "maschere-esfolianti",
+      "nome": "Maschere ed esfolianti",
+      "icona": ""
     },
     {
-      "id": "uomo-viaggio",
-      "nome": "Valigeria e borsoni",
-      "icona": "",
-      "genitore": "uomo"
-    },
-    {
-      "id": "uomo-portafogli",
-      "nome": "Portafogli e portacarte",
-      "icona": "",
-      "genitore": "uomo"
-    },
-    {
-      "id": "uomo-cinture",
-      "nome": "Cinture e bretelle",
-      "icona": "",
-      "genitore": "uomo"
-    },
-    {
-      "id": "uomo-giacche",
-      "nome": "Giacche e giubbotti",
-      "icona": "",
-      "genitore": "uomo"
-    },
-    {
-      "id": "uomo-scarpe",
-      "nome": "Scarpe e stivali",
-      "icona": "",
-      "genitore": "uomo"
-    },
-    {
-      "id": "uomo-accessori",
-      "nome": "Guanti e accessori",
-      "icona": "",
-      "genitore": "uomo"
+      "id": "oli-viso",
+      "nome": "Oli viso",
+      "icona": ""
     }
   ],
-  "prodotti": []
+  "prodotti": [
+    {
+      "id": "la-crema-originale",
+      "nome": "La Crema Originale",
+      "descrizione": "La crema simbolo di Alba Maris: ricca, avvolgente, per una pelle morbida e luminosa.",
+      "descrizione_completa": "Il cuore della collezione.\nUna texture ricca che si scioglie al calore delle dita e lascia la pelle morbida, confortata e luminosa.\nFormulata con estratto di alga bruna e oli preziosi.\nUso: mattina e sera su viso e collo, dopo il siero.",
+      "categoria": "creme-viso",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 32000,
+      "immagine": "assets/img/prodotti/la-crema-originale.svg",
+      "visibile": true
+    },
+    {
+      "id": "crema-leggera-giorno",
+      "nome": "Crema Leggera Giorno",
+      "descrizione": "Texture fresca e setosa, ideale sotto il trucco.",
+      "descrizione_completa": "Una crema fluida che si assorbe subito.\nIdrata senza appesantire e prepara la pelle al make-up.\nUso: ogni mattina su viso e collo.",
+      "categoria": "creme-viso",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 24000,
+      "immagine": "assets/img/prodotti/crema-leggera-giorno.svg",
+      "visibile": true
+    },
+    {
+      "id": "crema-notte-rigenerante",
+      "nome": "Crema Notte Rigenerante",
+      "descrizione": "Ricca e avvolgente, accompagna il riposo della pelle.",
+      "descrizione_completa": "Una crema da notte dalla texture piena.\nNutre mentre dormi e al risveglio la pelle appare riposata.\nUso: ogni sera su viso e collo.",
+      "categoria": "creme-viso",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 29000,
+      "immagine": "assets/img/prodotti/crema-notte-rigenerante.svg",
+      "visibile": true
+    },
+    {
+      "id": "il-concentrato",
+      "nome": "Il Concentrato",
+      "descrizione": "Il siero di punta: concentrato di idratazione e luce.",
+      "descrizione_completa": "Il siero più prezioso della collezione.\nUna formula concentrata che dona comfort e uniformità.\nUso: 2-3 gocce su viso pulito, prima della crema.",
+      "categoria": "sieri",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 39500,
+      "immagine": "assets/img/prodotti/il-concentrato.svg",
+      "visibile": true
+    },
+    {
+      "id": "siero-luminosita-perla",
+      "nome": "Siero Luminosità Perla",
+      "descrizione": "Un velo di luce per una pelle radiosa.",
+      "descrizione_completa": "Con polvere di perla e vitamine.\nIllumina l'incarnato e leviga la texture della pelle.\nUso: mattina e sera, prima della crema.",
+      "categoria": "sieri",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 26500,
+      "immagine": "assets/img/prodotti/siero-luminosita-perla.svg",
+      "visibile": true
+    },
+    {
+      "id": "siero-idratazione-profonda",
+      "nome": "Siero Idratazione Profonda",
+      "descrizione": "Acqua di mare e acido ialuronico per una pelle piena.",
+      "descrizione_completa": "Una texture gel che disseta subito.\nLa pelle appare più elastica e distesa.\nUso: mattina e sera su viso e collo.",
+      "categoria": "sieri",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 24000,
+      "immagine": "assets/img/prodotti/siero-idratazione-profonda.svg",
+      "visibile": true
+    },
+    {
+      "id": "contorno-occhi-concentrato",
+      "nome": "Contorno Occhi Concentrato",
+      "descrizione": "Cura concentrata per uno sguardo più riposato.",
+      "descrizione_completa": "Una formula mirata e delicata.\nRinfresca e leviga la zona dell'occhio.\nUso: picchiettare con l'anulare mattina e sera.",
+      "categoria": "contorno-occhi",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 22000,
+      "immagine": "assets/img/prodotti/contorno-occhi-concentrato.svg",
+      "visibile": true
+    },
+    {
+      "id": "balsamo-occhi-intenso",
+      "nome": "Balsamo Occhi Intenso",
+      "descrizione": "Un balsamo ricco per la pelle più sottile del viso.",
+      "descrizione_completa": "Una texture burrosa che nutre a fondo.\nIdeale la sera, per svegliarsi con uno sguardo più disteso.\nUso: una piccola quantità ogni sera.",
+      "categoria": "contorno-occhi",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 23500,
+      "immagine": "assets/img/prodotti/balsamo-occhi-intenso.svg",
+      "visibile": true
+    },
+    {
+      "id": "siero-occhi-lifting",
+      "nome": "Siero Occhi Lifting",
+      "descrizione": "Siero fresco con applicatore che dona tono.",
+      "descrizione_completa": "Un siero leggero con applicatore a sfera.\nDa usare al mattino per un effetto fresco e tonico.\nUso: mattina, prima della crema.",
+      "categoria": "contorno-occhi",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 20500,
+      "immagine": "assets/img/prodotti/siero-occhi-lifting.svg",
+      "visibile": true
+    },
+    {
+      "id": "schiuma-detergente-essenziale",
+      "nome": "Schiuma Detergente Essenziale",
+      "descrizione": "Una schiuma soffice che deterge senza seccare.",
+      "descrizione_completa": "Rimuove impurità e trucco con delicatezza.\nLascia la pelle pulita, morbida e pronta al rituale.\nUso: massaggiare sul viso umido e risciacquare.",
+      "categoria": "detergenti-tonici",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 9500,
+      "immagine": "assets/img/prodotti/schiuma-detergente-essenziale.svg",
+      "visibile": true
+    },
+    {
+      "id": "lozione-tonica-trattamento",
+      "nome": "Lozione Tonica Trattamento",
+      "descrizione": "Il secondo gesto del rituale: tonifica e prepara.",
+      "descrizione_completa": "Una lozione essenza che idrata e prepara all'assorbimento di siero e crema.\nUso: applicare con le mani o con un dischetto.",
+      "categoria": "detergenti-tonici",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 13500,
+      "immagine": "assets/img/prodotti/lozione-tonica-trattamento.svg",
+      "visibile": true
+    },
+    {
+      "id": "acqua-micellare-di-mare",
+      "nome": "Acqua Micellare di Mare",
+      "descrizione": "Rimuove il trucco in un solo gesto.",
+      "descrizione_completa": "Un'acqua delicata per viso e occhi.\nNon richiede risciacquo.\nUso: con un dischetto di cotone, mattina e sera.",
+      "categoria": "detergenti-tonici",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 8500,
+      "immagine": "assets/img/prodotti/acqua-micellare-di-mare.svg",
+      "visibile": true
+    },
+    {
+      "id": "maschera-rigenerante-notte",
+      "nome": "Maschera Rigenerante Notte",
+      "descrizione": "Una maschera da lasciare in posa tutta la notte.",
+      "descrizione_completa": "Texture ricca e avvolgente.\nAl risveglio la pelle è morbida e ristorata.\nUso: 2-3 volte a settimana al posto della crema.",
+      "categoria": "maschere-esfolianti",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 21000,
+      "immagine": "assets/img/prodotti/maschera-rigenerante-notte.svg",
+      "visibile": true
+    },
+    {
+      "id": "esfoliante-delicato-perle",
+      "nome": "Esfoliante Delicato alle Perle",
+      "descrizione": "Leviga la pelle con micro-granuli delicati.",
+      "descrizione_completa": "Uno scrub soffice che rinnova la grana della pelle senza irritarla.\nUso: 1-2 volte a settimana su viso umido.",
+      "categoria": "maschere-esfolianti",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 16500,
+      "immagine": "assets/img/prodotti/esfoliante-delicato-perle.svg",
+      "visibile": true
+    },
+    {
+      "id": "maschera-idratante-alba",
+      "nome": "Maschera Idratante Alba",
+      "descrizione": "Idratazione intensa in dieci minuti.",
+      "descrizione_completa": "Una maschera gel-crema per le giornate in cui la pelle ha sete.\nUso: lasciare in posa 10 minuti e rimuovere.",
+      "categoria": "maschere-esfolianti",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 18000,
+      "immagine": "assets/img/prodotti/maschera-idratante-alba.svg",
+      "visibile": true
+    },
+    {
+      "id": "olio-del-rinnovamento",
+      "nome": "Olio del Rinnovamento",
+      "descrizione": "Un olio prezioso che nutre e illumina.",
+      "descrizione_completa": "Una miscela di oli vegetali leggera e vellutata.\nSi mescola alla crema o si usa da solo.\nUso: 2-3 gocce la sera.",
+      "categoria": "oli-viso",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 25500,
+      "immagine": "assets/img/prodotti/olio-del-rinnovamento.svg",
+      "visibile": true
+    },
+    {
+      "id": "olio-secco-luminoso",
+      "nome": "Olio Secco Luminoso",
+      "descrizione": "Si assorbe subito e lascia un velo di luce.",
+      "descrizione_completa": "Un olio secco per viso, collo e decolleté.\nNon unge e dona un finish satinato.\nUso: mattina o sera.",
+      "categoria": "oli-viso",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 22500,
+      "immagine": "assets/img/prodotti/olio-secco-luminoso.svg",
+      "visibile": true
+    },
+    {
+      "id": "olio-notte-alghe",
+      "nome": "Olio Notte alle Alghe",
+      "descrizione": "Il rituale serale con estratto di alga bruna.",
+      "descrizione_completa": "Un olio da notte per nutrire in profondità.\nUso: massaggiare 3 gocce sul viso la sera.",
+      "categoria": "oli-viso",
+      "icona": "✦",
+      "tipo": "fisico",
+      "prezzo_centesimi": 24000,
+      "immagine": "assets/img/prodotti/olio-notte-alghe.svg",
+      "visibile": true
+    }
+  ]
 }

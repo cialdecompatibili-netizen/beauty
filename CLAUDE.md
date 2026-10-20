@@ -1,3 +1,6 @@
+# ALBA MARIS (beauty) - 20/10/2026
+Questa repo e' il clone di pelletteria riscritto come cosmetica di lusso (brand provvisorio Alba Maris). Catalogo PIATTO: 6 categorie senza reparti, 18 prodotti demo con foto SVG in `assets/img/prodotti/`. Tutto generato da `claudetemp\rebrand_beauty.py` (dati in CATS e PRODS, rilanciabile). Palette: blu mare #12333b al posto del marrone. Le sezioni sotto descrivono ancora la pelletteria: la struttura tecnica (e-commerce, admin, blocchi home) e' identica.
+
 # pelletteria
 
 Sito Jekyll su GitHub Pages: https://cialdecompatibili-netizen.github.io/pelletteria/ (repo cialdecompatibili-netizen/pelletteria, cartella Desktop\repository\pelletteria). Clone di prodottidigitali, riscritto come negozio di pelletteria con due reparti (Donna, Uomo) e le sottocategorie sotto ciascuno. Prodotti ancora da inserire.
